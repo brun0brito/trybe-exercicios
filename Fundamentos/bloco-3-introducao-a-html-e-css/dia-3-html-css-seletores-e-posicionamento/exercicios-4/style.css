@@ -2,10 +2,41 @@ div:hover {
     border: 2px solid black;
 }
 
-div {
-background-color: green;
+
+div:nth-of-type(1) {
+    background-color:rgb(6, 49, 6);
+    
 }
 
-div h3 {
-    background-color: aqua;
+div:nth-of-type(2) {
+    background-color: green;
+    
+}
+
+div:nth-of-type(3) {
+    background-color: rgb(127, 139, 127);
+    
+}
+
+div:nth-of-type(4) {
+    background-color:rgb(6, 49, 6);
+    
+}
+
+div:nth-of-type(5) {
+    background-color: rgb(192, 202, 192);
+    
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+div:nth-child(3n){
+    padding: 2px;
+}
+
+div:nth-child(even){
+    font-style: italic;
 }
