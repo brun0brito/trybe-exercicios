@@ -1,35 +1,15 @@
-/* Faça cinco programas, um para cada operação aritmética básica. 
-Seu programa deve ter duas constantes, a e b, definidas no começo 
-com os valores que serão operados. Faça programas para: */
+/*Faça um programa que retorne o maior de dois números. 
+Defina no começo do programa duas constantes com os }
+valores que serão comparados.*/
 
-// Adição
-const a = 10;
-const b = 20;
-let adicao;
+const n1 = 20;
+const n2 = 30;
+let resultado;
 
-adicao = a + b;
-console.log(adicao);
+if (n1 > n2){
+  resultado = n1;
+} else {
+  resultado = n2
+}
 
-// Subtração
-let subtracao;
-
-subtracao = a - b;
-console.log (subtracao);
-
-// Multiplicação
-let multiplicacao;
-
-multiplicacao = a * b;
-console.log(multiplicacao);
-
-// Divisão
-let divisao;
-
-divisao = a / b;
-console.log (divisao);
-
-// Módulo
-let modulo;
-
-modulo = a % b;
-console.log(modulo);
+console.log("O maior número é: "+resultado)
