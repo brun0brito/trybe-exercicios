@@ -11,4 +11,4 @@ let leitor = {
   ],
 };
 
-console.log ('"O livro favorito', leitor.nome , leitor.sobrenome, 'se chama' , leitor.livrosFavoritos)
+console.log ('"O livro favorito', leitor.nome , leitor.sobrenome, 'se chama' , leitor.livrosFavoritos[0].titulo)
