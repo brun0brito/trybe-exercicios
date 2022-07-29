@@ -20,6 +20,8 @@
     </section>
   </main>
   <script>
+
+    // Primeira parte dos exercícios
     document.querySelector('#elementoOndeVoceEsta').parentElement.parentElement.style.color = 'green';
     document.querySelector('#primeiroFilhoDoFilho').innerText = 'Um testo qualquer'
     document.querySelector('#pai').firstElementChild;
@@ -27,6 +29,14 @@
     document.querySelector('#elemntoOndeVoceEsta').parentElement.nextSibling;
     document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
     document.querySelector('#pai').firstElementChild.nextElementSibling.nextElementSibling;
+
+    // Segunda parte dos exercícios
+    //Crie um irmão para elementoOndeVoceEsta.
+    let elementoPai = document.querySelector('#pai');
+    let outroIrmao = document.createElement('section');
+    elementoPai.appendChild(outroIrmao);
+
+
   </script>
 </body>
 </html>
