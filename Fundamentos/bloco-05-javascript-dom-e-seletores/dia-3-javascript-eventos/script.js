@@ -152,7 +152,7 @@ function taskClass(){
   let selectedtask = document.getElementsByClassName('task selected');
   let myTasks = document.querySelector('.task');
 
-  myTasks.addEventListener('clicl', function(event) {
+  myTasks.addEventListener('click', function(event) {
     if (selectedtask.length === 0){
       event.target.className = 'task selected';
     }else {
